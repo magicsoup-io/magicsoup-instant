@@ -1,0 +1,106 @@
+{
+  "name": "@magicsoup.io/instant",
+  "version": "0.0.5",
+  "description": "An instant React-Native starter for instant apps. Open lid, add hot water, boil, enjoy!",
+  "main": "dist/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "babel src -d dist",
+    "size": "bundlesize",
+    "workaround": "babel node_modules/react-native-web/dist/ -d node_modules/react-native-web/dist/",
+    "generate-examples": "rm docs/components/*; rm examples/app/screens/*; npm run prepare; node generate-examples.js;"
+  },
+  "keywords": [
+    "components",
+    "react-native",
+    "react-native-component",
+    "ui",
+    "design-system",
+    "styled-system",
+    "styled-components",
+    "presentational",
+    "stateless",
+    "functional"
+  ],
+  "author": "zaubeware",
+  "contributors": [
+    {
+      "name": "Hannes Schmied",
+      "email": "hannes@zauberware.com",
+      "url": "https://www.zauberware.com"
+    },
+    {
+      "name": "Philipp Siegmund",
+      "email": "philipp@zauberware.com",
+      "url": "https://www.zauberware.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chroma-js": "^2.0.4",
+    "native-grid-styled": "^5.0.3",
+    "native-system-components": "^3.0.0",
+    "prop-types": "^15.6.0",
+    "react-primitives-svg": "0.0.3",
+    "styled-system": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "bundlesize": "^0.18.0",
+    "codecov": "^3.0.0",
+    "emotion": "^10.0.14",
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-config-standard-react": "^8.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "gh-pages": "^2.1.1",
+    "jest": "^24.8.0",
+    "jest-styled-components": "^6.3.3",
+    "lodash.sortby": "^4.7.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-emotion": "^10.0.0",
+    "react-test-renderer": "^16.2.0",
+    "refunk": "^3.0.1",
+    "repng": "^3.0.0",
+    "scrs": "^1.1.0",
+    "styled-components": "^4.3.2",
+    "system-docs": "^1.0.0-1"
+  },
+  "peerDependencies": {
+    "styled-components": ">=3.0 || >= 4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magicsoup-io/magicsoup-instant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magicsoup-io/magicsoup-instant/issues"
+  },
+  "homepage": "https://github.com/magicsoup-io/magicsoup-instant",
+  "jest": {
+    "roots": [
+      "<rootDir>/test/"
+    ],
+    "testMatch": [
+      "**/test/**/*.js"
+    ]
+  },
+  "bundlesize": [
+    {
+      "path": "./dist/*.js",
+      "maxSize": "2 kB"
+    }
+  ],
+  "x0": {
+    "title": "magicsoup.io/instant",
+    "basename": "/magicsoup.io-instant"
+  }
+}
