@@ -1,5 +1,5 @@
 import sys from 'native-system-components'
-import { Box } from './'
+import { Box } from '../../base/Box'
 
 export const FormContainer = sys({
   is: Box,

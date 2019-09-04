@@ -16,6 +16,7 @@ export { Card } from './components/display/Card'
 export { Image } from './components/display/Image'
 
 export { Button } from './components/form/Button'
+export { Input } from './components/form/Input'
 
 export { Container } from './components/layout/Container'
 export { Column } from './components/layout/Column'

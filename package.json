@@ -1,6 +1,6 @@
 {
   "name": "@magicsoup.io/instant",
-  "version": "0.0.5",
+  "version": "0.0.37",
   "description": "An instant React-Native starter for instant apps. Open lid, add hot water, boil, enjoy!",
   "main": "dist/index.js",
   "sideEffects": false,
@@ -22,7 +22,7 @@
     "stateless",
     "functional"
   ],
-  "author": "zaubeware",
+  "author": "zauberware",
   "contributors": [
     {
       "name": "Hannes Schmied",
@@ -41,6 +41,7 @@
     "native-grid-styled": "^5.0.3",
     "native-system-components": "^3.0.0",
     "prop-types": "^15.6.0",
+    "react-native-device-log": "^1.0.2",
     "react-primitives-svg": "0.0.3",
     "styled-system": "^5.1.0"
   },
