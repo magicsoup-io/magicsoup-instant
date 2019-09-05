@@ -1,6 +1,6 @@
 import React from 'react'
 import sys from 'native-system-components'
-import { themeGet } from 'styled-system'
+import { themeGet } from '@styled-system/theme-get'
 import { Touchable, Platform } from 'react-primitives'
 
 import { Box } from '../../base/Box'
@@ -32,7 +32,7 @@ class ButtonHelper extends React.Component {
   }
 }
 
-ButtonHelper.displayName = 'Box'
+ButtonHelper.displayName = 'Button'
 
 export const Button = sys({
   is: ButtonHelper,
