@@ -38,7 +38,6 @@
   "license": "MIT",
   "dependencies": {
     "@styled-system/theme-get": "^5.1.1",
-    "chroma-js": "^2.0.4",
     "native-grid-styled": "^5.0.3",
     "native-system-components": "^3.0.0",
     "prop-types": "^15.6.0",
@@ -47,7 +46,6 @@
     "styled-system": "^5.1.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
@@ -100,9 +98,5 @@
       "path": "./dist/*.js",
       "maxSize": "2 kB"
     }
-  ],
-  "x0": {
-    "title": "magicsoup.io/instant",
-    "basename": "/magicsoup.io-instant"
-  }
+  ]
 }
