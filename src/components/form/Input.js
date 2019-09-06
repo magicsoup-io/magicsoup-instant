@@ -11,7 +11,8 @@ class InputHelper extends React.Component {
     const { inputStyles, containerStyles, debug, ...props } = this.props
     
     if(debug){
-      deviceLog.log("this.props ~~ ms.io/instant ~~ Input", this.props)
+      deviceLog.log("this.props ~~ ms.io/instant ~~ Input")
+      deviceLog.l
     }
 
     return (
