@@ -1,6 +1,6 @@
 {
   "name": "@magicsoup.io/instant",
-  "version": "0.0.56",
+  "version": "0.0.57",
   "description": "An instant React-Native starter for instant apps. Open lid, add hot water, boil, enjoy!",
   "main": "dist/index.js",
   "sideEffects": false,
