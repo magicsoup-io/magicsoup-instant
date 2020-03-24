@@ -1,6 +1,6 @@
 {
   "name": "@magicsoup.io/instant",
-  "version": "0.0.6",
+  "version": "0.0.69",
   "description": "An instant React-Native starter for instant apps. Open lid, add hot water, boil, enjoy!",
   "main": "dist/index.js",
   "sideEffects": false,
@@ -62,8 +62,6 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-standard": "^4.0.0",
     "gh-pages": "^2.1.1",
-    "jest": "^24.8.0",
-    "jest-styled-components": "^6.3.3",
     "lodash.sortby": "^4.7.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -86,14 +84,6 @@
     "url": "https://github.com/magicsoup-io/magicsoup-instant/issues"
   },
   "homepage": "https://github.com/magicsoup-io/magicsoup-instant",
-  "jest": {
-    "roots": [
-      "<rootDir>/test/"
-    ],
-    "testMatch": [
-      "**/test/**/*.js"
-    ]
-  },
   "bundlesize": [
     {
       "path": "./dist/*.js",
