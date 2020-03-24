@@ -1,11 +1,12 @@
 {
   "name": "@magicsoup.io/instant",
-  "version": "0.0.57",
+  "version": "0.0.6",
   "description": "An instant React-Native starter for instant apps. Open lid, add hot water, boil, enjoy!",
   "main": "dist/index.js",
   "sideEffects": false,
   "scripts": {
-    "build": "babel src -d dist",
+    "build": "rm -fr dist/ && babel src -d dist",
+    "publish": "npm publish -access public",
     "size": "bundlesize",
     "workaround": "babel node_modules/react-native-web/dist/ -d node_modules/react-native-web/dist/",
     "generate-examples": "rm docs/components/*; rm examples/app/screens/*; npm run prepare; node generate-examples.js;"
@@ -38,10 +39,10 @@
   "license": "MIT",
   "dependencies": {
     "@styled-system/theme-get": "^5.1.1",
+    "chroma-js": "^2.0.6",
     "native-grid-styled": "^5.0.3",
     "native-system-components": "^3.0.0",
     "prop-types": "^15.6.0",
-    "react-native-device-log": "^1.0.2",
     "react-primitives-svg": "0.0.3",
     "styled-system": "^5.1.1"
   },

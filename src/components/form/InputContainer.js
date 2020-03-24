@@ -4,7 +4,6 @@ import sys from 'native-system-components'
 import { Platform } from 'react-primitives'
 
 import { Box } from '../../base/Box'
-import deviceLog from 'react-native-device-log'
 
 const shadow = {
   ios: {

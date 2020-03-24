@@ -4,16 +4,9 @@ import { TextInput } from 'react-native'
 import { InputContainer } from './InputContainer'
 import { Box } from '../../base/Box'
 
-import deviceLog from 'react-native-device-log'
-
 class InputHelper extends React.Component {
   render () {
     const { inputStyles, containerStyles, debug, ...props } = this.props
-    
-    if(debug){
-      deviceLog.log("this.props ~~ ms.io/instant ~~ Input")
-      deviceLog.l
-    }
 
     return (
       <InputContainer
